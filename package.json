@@ -46,7 +46,8 @@
     "test:r": "react-scripts test",
     "lint:fix": "eslint '**/*.js' --fix",
     "lint": "eslint '**/*.js'",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "cname": "cp CNAME ./build"
   },
   "eslintConfig": {
     "extends": "react-app"

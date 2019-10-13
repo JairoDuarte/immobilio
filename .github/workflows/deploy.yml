@@ -19,4 +19,4 @@ jobs:
           BRANCH: gh-pages
           BASE_BRANCH: master
           FOLDER: build
-          BUILD_SCRIPT: npm install && npm run build
+          BUILD_SCRIPT: npm install && npm run build && npm run cname
