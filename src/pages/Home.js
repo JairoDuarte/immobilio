@@ -5,6 +5,7 @@ import api from '@/api';
 
 export default function Home() {
   const [offers, setOffers] = useState([]);
+  // eslint-disable-next-line no-unused-vars
   const [types, setTypes] = useState(['apartment', 'land']);
 
   useEffect(() => {
