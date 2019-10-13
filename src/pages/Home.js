@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { Container } from 'semantic-ui-react';
+import { Container, Segment } from 'semantic-ui-react';
 import OffersBlock from '@/components/offers/OffersBlock';
 import api from '@/api';
+import Types from '@/components/Types';
 
 export default function Home() {
   const [offers, setOffers] = useState([]);
-  // eslint-disable-next-line no-unused-vars
-  const [types, setTypes] = useState(['apartment', 'land']);
+  const [types, setTypes] = useState([]);
 
   useEffect(() => {
     async function fetchOffers() {
@@ -20,9 +20,17 @@ export default function Home() {
     }
     fetchOffers();
   }, [types]);
+
+  function updateItem(value) {
+    setTypes(value);
+  }
   return (
     <div className="App">
       <Container style={{ minHeight: window.innerHeight - 235 }}>
+        <Segment basic textAlign="left" style={{ marginLeft: '8em' }}>
+          <Types types={types} updateItem={updateItem} />
+        </Segment>
+
         <OffersBlock offers={offers} />
       </Container>
     </div>
