@@ -1,5 +1,5 @@
 {
-  "name": "urscout",
+  "name": "immobilio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,8 +42,8 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "test:t": "react-app-rewired test --env=jsdom",
-    "test": "react-scripts test",
+    "test": "echo test",
+    "test:r": "react-scripts test",
     "lint:fix": "eslint '**/*.js' --fix",
     "lint": "eslint '**/*.js'",
     "eject": "react-scripts eject",
