@@ -20,6 +20,7 @@ export default function Offer({ match: { params } }) {
 
         setPictures(result.data);
       } catch (error) {
+        // eslint-disable-next-line no-console
         console.log(error);
       }
     }
