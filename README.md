@@ -1,11 +1,17 @@
-REACT APP QUICK START
+# immobilio is real state marketplace
 
-* Redux
-* React Router
-* Semantic UI React
-* Eslint
-* Prettier
-* Absolute Import
-  
-   import Card from '../components/Card'  👎  
-   import Card from '@/components/Card'   👍
+
+<div align="center">
+
+[![Actions Status](https://github.com/JairoDuarte/immobilio/workflows/deploy/badge.svg)](https://github.com/JairoDuarte/immobilio/actions)
+</div>
+
+## Installation
+
+`npm install `
+
+`npm start`
+
+## Deploy and Build
+
+`npm run build`
