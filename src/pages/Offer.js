@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React, { useEffect, useState } from 'react';
 import { Header, Container, Grid, Icon, Button } from 'semantic-ui-react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';

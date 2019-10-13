@@ -6,11 +6,6 @@ import Footer from './Footer';
 import Offer from './Offer';
 
 function Main() {
-  const items = () => (
-    <div>
-      <h1>items</h1>
-    </div>
-  );
   return (
     <div>
       <Menu />
